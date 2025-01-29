@@ -1,0 +1,8 @@
+scrollbar: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_scrollbars_styling
+cursor: https://blog.logrocket.com/creating-custom-mouse-cursor-css/
+hamburger menu: 
+grids:
+images: google
+horizontal scroll gallery: https://www.w3schools.com/howto/howto_css_image_gallery_scroll.asp 
+font: league spartan (Google fonts)
+modal view: https://www.w3schools.com/howto/howto_css_modal_images.asp
