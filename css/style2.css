@@ -292,10 +292,20 @@ ul {
     position: absolute;
     background-color: #FF79AA;
     border-radius: 50%;
-    height: 13px;
-    width: 13px;
-    margin-left: 669px;
-    margin-top: -7.5px;
+    height: 17px;
+    width: 17px;
+    margin-left:315px;
+    margin-top: -16px;
+}
+
+.cirkel2 {
+    position: absolute;
+    background-color: #FF79AA;
+    border-radius: 50%;
+    height: 17px;
+    width: 17px;
+    margin-left:576px;
+    margin-top: 150px;
 }
 
 .cirkelImage1 {
