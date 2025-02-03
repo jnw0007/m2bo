@@ -31,10 +31,20 @@ body {
 
 .techskillsTitel {
     background: transparent;
-    color: #552500;
+    color: #753607;
     font-weight: 800;
     font-size: 50px;
     grid-area: 7/2;
+    width: 800px;
+}
+
+.textTitel {
+    position: absolute;
+    background: transparent;
+    color: #753607;
+    font-weight: 800;
+    font-size: 50px;
+    margin-left: 115px;
     width: 800px;
 }
 
@@ -72,22 +82,27 @@ footer {
 
 .headerTitle:hover {
     cursor: pointer;
-}
-
-.headerTitleRectangle:hover {
-    cursor: pointer;
+    width: 250px;
+    height: 150px;
+    font-size: 70px;
+    font-weight: 900;
+    transition: .3s ease;
 }
 
 .headerTitle {
+    transition: .3s ease-out;
+    margin-left: 30px;
     grid-area: 16/7;
     justify-content: center;
     font-size: 60px;
     font-weight: 800;
     width: 200px;
     height: 100px;
-    color: #ff96bd;
+    color: #ffccdf;
+    text-shadow: -3px -3px 0 #ffaecd, 3px -3px 0 #ffaecd, -3px 3px 0 #ffaecd, 3px 3px 0 #ffaecd;
     text-transform: uppercase;
 }
+
 
 .grid-container2 {
     display: grid;
@@ -232,8 +247,8 @@ ul {
     position: absolute;
     width: 700px;
     height: 350px;
-    background-color: #FFDCA0;
-    border-color: #FFDCA0;
+    background-color: #FFE3B4;
+    border-color: #FFE3B4;
     border-style: solid;
     border-width: 10px;
     border-radius: 16px;
@@ -277,10 +292,10 @@ ul {
     position: absolute;
     background-color: #FF79AA;
     border-radius: 50%;
-    height: 17px;
-    width: 17px;
-    margin-left: 576px;
-    margin-top: 150px;
+    height: 13px;
+    width: 13px;
+    margin-left: 669px;
+    margin-top: -7.5px;
 }
 
 .cirkelImage1 {
@@ -296,4 +311,14 @@ ul {
     background-color: #FFA4C3;
     border-style: dashed;
     border-radius: 50%;
+}
+
+.wat {
+    color: #FF79AA;
+    position: absolute;
+    background: transparent;
+    font-weight: 800;
+    font-size: 50px;
+    margin-right: 400px;
+    width: 800px;
 }

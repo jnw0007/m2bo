@@ -46,27 +46,26 @@ footer {
     overflow-y: hidden;
 }
 
-.logo:hover {
-    cursor: pointer;
-    transition: .3s ease;
-    height: 110px;
-    width: 210px;
-    font-size: 65px;
-}
-
 .headerTitle:hover {
     cursor: pointer;
+    width: 250px;
+    height: 150px;
+    font-size: 70px;
+    font-weight: 900;
+    transition: .3s ease;
 }
 
 .headerTitle {
+    transition: .3s ease-out;
+    margin-left: 30px;
     grid-area: 16/7;
     justify-content: center;
     font-size: 60px;
     font-weight: 800;
     width: 200px;
     height: 100px;
-    color: #ffbad4;
-    text-shadow: -3px -3px 0 #ff96bd, 3px -3px 0 #ff96bd, -3px 3px 0 #ff96bd, 3px 3px 0 #ff96bd;
+    color: #ffccdf;
+    text-shadow: -3px -3px 0 #ffaecd, 3px -3px 0 #ffaecd, -3px 3px 0 #ffaecd, 3px 3px 0 #ffaecd;
     text-transform: uppercase;
 }
 
@@ -358,7 +357,7 @@ ul {
 
 .blik {
     background: transparent;
-    color: #552500;
+    color: #753607;
     font-weight: 800;
     font-size: 50px;
     grid-area: 7/2;
@@ -459,7 +458,7 @@ nav {
     position: absolute;
     margin-left: 150px;
     margin-bottom: 10px;
-    color: #552500;
+    color: #753607;
     font-size: 70px;
 }
 
@@ -543,4 +542,5 @@ div.scroll-container img:hover {
     border-radius: 16px;
 }
 
-@media screen {}
+@media only screen and (max-width: 600px) {
+  }
